@@ -1,0 +1,43 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.logo {
+  background-color:  #888;
+  border-radius: 50%;
+  font-size: 10em;
+  color: #fff;
+}
+
+
+body {
+  font-family: "Inconsolata", serif;
+}
+
+
+h1 {
+  font-size: 10em;
+}
+
+
+p {color: #888;}
+
+
+@media screen and (max-width:991px){
+  article {
+    border-bottom: thin #ddd solid;
+  }
+
+
+  h1 {
+    font-size: 5em;
+  }
+}
